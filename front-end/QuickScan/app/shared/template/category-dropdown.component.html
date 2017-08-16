@@ -1,0 +1,8 @@
+<select class="category-dropdown" *ngIf='genreAndCategories'>
+    <option value="all">&nbsp;All Categories</option>
+    <optgroup *ngFor="let genreAndCat of genreAndCategories | genreOrderByPriority" label={{genreAndCat.Genre.Title}} class="optgroup">
+        <option *ngFor='let category of genreAndCat.Categories | categoryOrderByPriority' value={{category.CategoryId}} class="option">
+            {{category.Title}}
+        </option>
+    </optgroup>
+</select>

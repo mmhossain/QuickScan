@@ -1,0 +1,12 @@
+.category-dropdown {
+    width: 25%;
+    margin: 0em;
+    border: 1px solid #b2b2b2;
+    border-radius: 0;
+    max-height: 100px;
+}
+
+.option {
+    line-height: 1.5em;
+    padding: 0.2em 0em;
+}

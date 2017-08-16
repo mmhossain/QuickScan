@@ -1,0 +1,14 @@
+<div *ngIf='genreAndCategories'>
+    <div class='category-list-section'>
+        <ul>
+            <li *ngFor="let genreAndCat of genreAndCategories | genreOrderByPriority" (click)='onGenreClick(genreAndCat)'>
+                <span class='genre-title'>{{genreAndCat.Genre.Title}}</span>
+                <ul [hidden]='showGenre(genreAndCat)'>
+                    <li *ngFor='let category of genreAndCat.Categories | categoryOrderByPriority' (click)='onCategoryClick(category)'>
+                        <span class="{{category.CategoryId == selectedCategoryId ? 'selected-category' : ''}}">{{category.Title}}</span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>

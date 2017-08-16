@@ -1,0 +1,15 @@
+div.browse-question {
+    width: 80.6%;
+    margin: 0em auto;
+}
+
+div.left-panel {
+    float: left;
+    width: 20%;
+    border-radius: 5px;
+}
+
+div.right-panel {
+    float: right;
+    width: 80%;
+}

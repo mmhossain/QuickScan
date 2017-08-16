@@ -1,0 +1,37 @@
+div.category-list-section {
+    float: left;
+    width: 100%;
+    padding-right: 0.5em;
+}
+
+div.category-list-section ul {
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+div.category-list-section ul li {
+    list-style-type: none;
+    font-weight: normal !important;
+}
+
+div.category-list-section ul span.genre-title {
+    color: lightcyan;
+    background: linear-gradient(to right, steelblue, lightgrey);
+    padding: 0.5em;
+    display: block;
+    border-bottom: 1px solid #fff;
+}
+
+div.category-list-section li span {
+    text-decoration: none;
+    display: block;
+    padding: 0.5em;
+    background: linear-gradient(to bottom, lightgrey, #d2d2d2);
+    margin-bottom: 1px; 
+}
+
+div.category-list-section li span.selected-category {
+    font-weight: bold;
+    color: lightcyan;
+    background: linear-gradient(to bottom, burlywood, orchid);
+}

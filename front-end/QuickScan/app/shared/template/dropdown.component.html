@@ -1,0 +1,20 @@
+<!--<select *ngIf='items' class={{getWrapperClass()}}>
+    <optgroup *ngFor="let dItem of items" label={{dItem.optgroup.text}} class="optgroup">
+        <option *ngFor='let opt of dItem.options' value={{opt.value}} class="option">
+            {{opt.text}}
+        </option>
+    </optgroup>
+</select>-->
+<div class={{getWrapperClass()}}>
+    <input type="text" class="all-categories" placeholder={{placeholder}} 
+        (click)='toggleDropdown()' 
+        (blur)='toggleDropdown()'
+        (keydown)='showDropdown()'/>
+    <div class="dropdown" [hidden]='hideDropdown'>
+        <ul *ngIf='items' class={{getWrapperClass()}}>
+            <li *ngFor="let item of items">
+                {{item.text}}
+            </li>
+        </ul>
+    </div>
+</div>

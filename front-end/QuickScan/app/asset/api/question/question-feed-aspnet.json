@@ -1,0 +1,264 @@
+[
+    {
+        "id": "aspnet-q1",
+        "level": "INTERMEDIATE",
+        "type": "SINGLE_SELECT",
+        "categoryId": "aspnet",
+        "title": "Which one is NOT a lifecycle hook for ASP.NET page?", 
+        "options": [
+            {
+                "id": "aspnet-q1-o1",
+                "text": "PreInit"
+            },
+            {
+                "id": "aspnet-q1-o2",
+                "text": "SaveStateComplete"
+            },
+            {
+                "id": "aspnet-q1-o3",
+                "text": "PreRender"
+            },
+            {
+                "id": "aspnet-q1-o4",
+                "text": "Dispose"
+            }
+        ]
+    },
+    {
+        "id": "aspnet-q2",
+        "level": "INTERMEDIATE",
+        "type": "MULTI_SELECT",
+        "categoryId": "aspnet",
+        "title": "What are the state management techniques in ASP.NET?", 
+        "options": [
+            {
+                "id": "aspnet-q2-o1",
+                "text": "profile"
+            },
+            {
+                "id": "aspnet-q2-o2",
+                "text": "session"
+            },
+            {
+                "id": "aspnet-q2-o3",
+                "text": "cookie"
+            },
+            {
+                "id": "aspnet-q2-o4",
+                "text": "application"
+            },
+            {
+                "id": "aspnet-q2-o5",
+                "text": "Only the first three"
+            }
+        ]
+    },
+    {
+        "id": "aspnet-q3",
+        "level": "EXPERT",
+        "type": "SINGLE_SELECT",
+        "categoryId": "aspnet",
+        "title": "Which one can NOT be a choice for SessionStateMode", 
+        "options": [
+            {
+                "id": "aspnet-q3-o1",
+                "text": "On"
+            },
+            {
+                "id": "aspnet-q3-o2",
+                "text": "Off"
+            },
+            {
+                "id": "aspnet-q3-o3",
+                "text": "InProc"
+            },
+            {
+                "id": "aspnet-q3-o4",
+                "text": "StateServer"
+            },
+            {
+                "id": "aspnet-q3-o5",
+                "text": "SqlServer"
+            }
+        ]
+    },
+    {
+        "id": "aspnet-q4",
+        "level": "EXPERT",
+        "type": "SINGLE_SELECT",
+        "categoryId": "aspnet",
+        "title": "How many master pages can you have in a single application developed in ASP.NET?", 
+        "options": [
+            {
+                "id": "aspnet-q4-o1",
+                "text": "1"
+            },
+            {
+                "id": "aspnet-q4-o2",
+                "text": "2"
+            },
+            {
+                "id": "aspnet-q4-o3",
+                "text": "As many as you wish"
+            }
+        ]
+    },
+    {
+        "id": "aspnet-q5",
+        "level": "BEGINNER",
+        "type": "SINGLE_SELECT",
+        "categoryId": "aspnet",
+        "title": "Which one is responsible for managing scripts in ASP.NET pages?",
+        "options": [
+            {
+                "id": "aspnet-q5-o1",
+                "text": "ScriptManager"
+            },
+            {
+                "id": "aspnet-q5-o2",
+                "text": "HttpSessionState"
+            },
+            {
+                "id": "aspnet-q5-o3",
+                "text": "ViewState"
+            },
+            {
+                "id": "aspnet-q5-o4",
+                "text": "ScriptLoader"
+            }
+        ]
+    },
+    {
+        "id": "aspnet-q6",
+        "level": "EXPERT",
+        "type": "SINGLE_SELECT",
+        "categoryId": "aspnet",
+        "title": "Which one is NOT a request lifecycle event in ASP.NET?",
+        "options": [
+            {
+                "id": "aspnet-q6-o1",
+                "text": "BeginRequest"
+            },
+            {
+                "id": "aspnet-q6-o2",
+                "text": "PreLoad"
+            },
+            {
+                "id": "aspnet-q6-o3",
+                "text": "PostResolveRequestCache"
+            },
+            {
+                "id": "aspnet-q6-o4",
+                "text": "PreRequestHandlerExecute"
+            }
+        ]
+    },
+    {
+        "id": "aspnet-q7",
+        "level": "EXPERT",
+        "type": "SINGLE_SELECT",
+        "categoryId": "aspnet",
+        "title": "Which one is true regarding ViewState in ASP.NET?",
+        "options": [
+            {
+                "id": "aspnet-q7-o1",
+                "text": "Any data can be passed through ViewState regardless of security"
+            },
+            {
+                "id": "aspnet-q7-o2",
+                "text": "Objects in ViewState should have the capability to be serialized"
+            },
+            {
+                "id": "aspnet-q7-o3",
+                "text": "ViewState data only stores in client side, and never transfered with the request"
+            },
+            {
+                "id": "aspnet-q7-o4",
+                "text": "ViewState is the only way to pass data between requests"
+            }
+        ]
+    },
+    {
+        "id": "aspnet-q8",
+        "level": "EXPERT",
+        "type": "SINGLE_SELECT",
+        "categoryId": "aspnet",
+        "title": "Which one is NOT a participant for model binding in ASP.NET?",
+        "options": [
+            {
+                "id": "aspnet-q8-o1",
+                "text": "ValueProvider"
+            },
+            {
+                "id": "aspnet-q8-o2",
+                "text": "ModelBinder"
+            },
+            {
+                "id": "aspnet-q8-o3",
+                "text": "TryUpdateModel"
+            },
+            {
+                "id": "aspnet-q8-o4",
+                "text": "ModelState"
+            },
+            {
+                "id": "aspnet-q8-o5",
+                "text": "HttpHandler"
+            }
+        ]
+    },
+    {
+        "id": "aspnet-q9",
+        "level": "BEGINNER",
+        "type": "MULTI_SELECT",
+        "categoryId": "aspnet",
+        "title": "How can you derermine a postback in ASP.NET?",
+        "options": [
+            {
+                "id": "aspnet-q9-o1",
+                "text": "Using IsPostBack"
+            },
+            {
+                "id": "aspnet-q9-o2",
+                "text": "Using HttpMethod"
+            },
+            {
+                "id": "aspnet-q9-o3",
+                "text": "All requests are automatically POST type, so no need to determine separately"
+            },
+            {
+                "id": "aspnet-q9-o4",
+                "text": "There is no way"
+            }
+        ]
+    },
+    {
+        "id": "aspnet-q10",
+        "level": "SINGLE_SELECT",
+        "type": "SINGLE_SELECT",
+        "categoryId": "aspnet",
+        "title": "Which one is NOT true for ASP.NET state management?",
+        "options": [
+            {
+                "id": "aspnet-q10-o1",
+                "text": "Data shared by all requests in the application - application data"
+            },
+            {
+                "id": "aspnet-q10-o2",
+                "text": "Data shared by all requests made by the same user - profile data"
+            },
+            {
+                "id": "aspnet-q10-o3",
+                "text": "Data shared by all requests in a single session - session data"
+            },
+            {
+                "id": "aspnet-q10-o4",
+                "text": "Data shared between requests made by a browser window - cookies"
+            },
+            {
+                "id": "aspnet-q10-o5",
+                "text": "All of the above statements are true"
+            }
+        ]
+    }
+]

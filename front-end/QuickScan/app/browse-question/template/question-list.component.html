@@ -1,0 +1,10 @@
+<div *ngIf='questions'>
+    <div class="question-list-section">
+        <div *ngFor='let question of questions; let i = index '>
+            <question
+                [selectedCategoryId]='selectedCategoryId'
+                [question]='question'
+                [questionNumber]='i'></question>
+        <div>
+    </div>
+</div>

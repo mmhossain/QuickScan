@@ -1,0 +1,244 @@
+[
+    {
+        "id": "jquery-q1",
+        "level": "BEGINNER",
+        "type": "SINGLE_SELECT",
+        "categoryId": "jquery",
+        "title": "Which one is the shortcut for jQuery?", 
+        "options": [
+            {
+                "id": "jquery-q1-o1",
+                "text": "%"
+            },
+            {
+                "id": "jquery-q1-o2",
+                "text": "$$"
+            },
+            {
+                "id": "jquery-q1-o3",
+                "text": "#"
+            },
+            {
+                "id": "jquery-q1-o4",
+                "text": "$"
+            }
+        ]
+    },
+    {
+        "id": "jquery-q2",
+        "level": "BEGINNER",
+        "type": "SINGLE_SELECT",
+        "categoryId": "jquery",
+        "title": "What does the selector $('div') mean in jQuery?", 
+        "options": [
+            {
+                "id": "jquery-q2-o1",
+                "text": "It will select only the first div element"
+            },
+            {
+                "id": "jquery-q2-o2",
+                "text": "It will select only all the div elements"
+            },
+            {
+                "id": "jquery-q2-o3",
+                "text": "It will select only the last div element"
+            }
+        ]
+    },
+    {
+        "id": "jquery-q3",
+        "level": "INTERMEDIATE",
+        "type": "SINGLE_SELECT",
+        "categoryId": "jquery",
+        "title": "What does the selector $('div.top-header > p') mean in jQuery?", 
+        "options": [
+            {
+                "id": "jquery-q3-o1",
+                "text": "Select all the p elements in a div which has class top-header"
+            },
+            {
+                "id": "jquery-q3-o2",
+                "text": "Select only the first-'level' p elements in a div which has class top-header"
+            },
+            {
+                "id": "jquery-q3-o3",
+                "text": "Select only the first p elements in a div which has class top-header"
+            },
+            {
+                "id": "jquery-q3-o4",
+                "text": "Select all p elements with class top-header"
+            }
+        ]
+    },
+    {
+        "id": "jquery-q4",
+        "level": "INTERMEDIATE",
+        "type": "SINGLE_SELECT",
+        "categoryId": "jquery",
+        "title": "Select the correct jQuery code to set the background color of all p elements to red.", 
+        "options": [
+            {
+                "id": "jquery-q4-o1",
+                "text": "$('p').css('background-color','red');"
+            },
+            {
+                "id": "jquery-q4-o2",
+                "text": "$('p').manipulate('background-color','red');"
+            },
+            {
+                "id": "jquery-q4-o3",
+                "text": "$('p').style('background-color','red');"
+            },
+            {
+                "id": "jquery-q4-o4",
+                "text": "$('p').layout('background-color','red');"
+            }
+        ]
+    },
+    {
+        "id": "jquery-q5",
+        "level": "BEGINNER",
+        "type": "SINGLE_SELECT",
+        "categoryId": "jquery",
+        "title": "What is the jQuery method to hide selected element?",
+        "options": [
+            {
+                "id": "jquery-q5-o1",
+                "text": "visible(false)"
+            },
+            {
+                "id": "jquery-q5-o2",
+                "text": "display(none)"
+            },
+            {
+                "id": "jquery-q5-o3",
+                "text": "hide()"
+            },
+            {
+                "id": "jquery-q5-o4",
+                "text": "hidden()"
+            }
+        ]
+    },
+    {
+        "id": "jquery-q6",
+        "level": "BEGINNER",
+        "type": "MULTI_SELECT",
+        "categoryId": "jquery",
+        "title": "What are the ways you can include jQuery in a document?",
+        "options": [
+            {
+                "id": "jquery-q6-o1",
+                "text": "inline style"
+            },
+            {
+                "id": "jquery-q6-o2",
+                "text": "internal style"
+            },
+            {
+                "id": "jquery-q6-o3",
+                "text": "include external custom stylesheets"
+            },
+            {
+                "id": "jquery-q6-o4",
+                "text": "include external stylesheets from CDN"
+            }
+        ]
+    },
+    {
+        "id": "jquery-q7",
+        "level": "EXPERT",
+        "type": "MULTI_SELECT",
+        "categoryId": "jquery",
+        "title": "What are the differences between document ready() and body onload() functions?",
+        "options": [
+            {
+                "id": "jquery-q7-o1",
+                "text": "We can have more than one body onload(), but only one document.ready() function"
+            },
+            {
+                "id": "jquery-q7-o2",
+                "text": "We can have more than one document.ready(), but only one body onload function"
+            },
+            {
+                "id": "jquery-q7-o3",
+                "text": "document.ready() function is called as soon as DOM is loaded, but body onload is called when everything is loaded"
+            },
+            {
+                "id": "jquery-q7-o4",
+                "text": "body onload function is called as soon as DOM is loaded, but document.ready() is called when everything is loaded"
+            },
+            {
+                "id": "jquery-q7-o5",
+                "text": "None of the above"
+            }
+        ]
+    },
+    {
+        "id": "jquery-q8",
+        "level": "BEGINNER",
+        "type": "SINGLE_SELECT",
+        "categoryId": "jquery",
+        "title": "In jQuery how do you check if an element is empty?",
+        "options": [
+            {
+                "id": "jquery-q8-o1",
+                "text": "is(':void')"
+            },
+            {
+                "id": "jquery-q8-o2",
+                "text": "is(':empty')"
+            },
+            {
+                "id": "jquery-q8-o3",
+                "text": "empty()"
+            },
+            {
+                "id": "jquery-q8-o4",
+                "text": "remove()"
+            }
+        ]
+    },
+    {
+        "id": "jquery-q9",
+        "level": "INTERMEDIATE",
+        "type": "SINGLE_SELECT",
+        "categoryId": "jquery",
+        "title": "Which one is true?",
+        "options": [
+            {
+                "id": "jquery-q9-o1",
+                "text": "event.preventDefault(): stops the default action of an element from happening"
+            },
+            {
+                "id": "jquery-q9-o2",
+                "text": "event.stopPropagation(): stops the default action of an element from happening"
+            },
+            {
+                "id": "jquery-q9-o3",
+                "text": "return false: stops only the default action of an element from happening"
+            },
+            {
+                "id": "jquery-q9-o4",
+                "text": "event.stopImmediatePropagation(): stops the default action of an element from happening"
+            }
+        ]
+    },
+    {
+        "id": "jquery-q10",
+        "level": "INTERMEDIATE",
+        "type": "SINGLE_SELECT",
+        "categoryId": "jquery",
+        "title": "Can we use multiple versions of jQuery in the same page?",
+        "options": [
+            {
+                "id": "jquery-q10-o1",
+                "text": "Yes"
+            },
+            {
+                "id": "jquery-q10-o2",
+                "text": "No"
+            }
+        ]
+    }
+]

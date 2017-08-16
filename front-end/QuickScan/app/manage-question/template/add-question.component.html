@@ -1,0 +1,62 @@
+<div class="entry-form-medium" [hidden]='hideAddQuestionSection'>
+    <form class="container" (submit)='saveQuestion()'>
+        <div class="form-header">
+            Add a Question
+        </div>
+        <div class="form-body">
+            <input type="hidden" [value]="question.GenreId" name="genreId" />
+            <div class="form-group">
+                <label for="category" class="form-label">Category</label>
+                <select id='category' class="form-control" [(ngModel)]="question.CategoryId" name="category">
+                    <option *ngFor='let category of categories' [value]='category.CategoryId'>{{category.Title}}</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="questionType" class="form-label">Question Type</label>
+                <select id='questionType' class="form-control" [(ngModel)]="question.Type" name="questionType">
+                    <option value='1'>Single Select</option>
+                    <option value='2'>Multi Select</option>
+                </select> 
+            </div>
+            
+            <div class="form-group">
+                <label for="questionLevel" class="form-label">Question Level</label>
+                <select id="questionLevel" class="form-control" [(ngModel)]="question.Level" name="questionLevel">
+                    <option value='1'>Beginner</option>
+                    <option value='2'>Intermediate</option>
+                    <option value='3'>Expert</option>
+                </select> 
+            </div>
+
+            <div class="form-group">
+                <label for="questionTitle" class="form-label">Question Title</label>
+                <input type="text" id="questionTitle" class="form-control" 
+                    placeholder="Type the question you want to ask"
+                    [(ngModel)]="question.Title" name="questionTitle" />
+            </div>
+
+            <div class="form-group">
+                <label for="questionOptions">Question Options</label>
+                <div class="options">
+                    <div *ngFor='let opt of question.Options; let i=index' class="option">
+                        <input type={{optionType()}} name="question.questionId" />
+                        <input type="text" class="form-control" />
+
+                        <input *ngIf='i > 0 && i !== question.Options.length-1' 
+                            type="submit" class="remove-option" value="-" title="remove option"
+                            (click)='removeOption(opt.optionId)' />
+
+                        <input *ngIf='i===question.Options.length-1' 
+                            type="submit" class="add-option" value="+" title="add an option"
+                            (click)='addOption()' />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-footer">
+            <input type="submit" value="Save" class="btn btn-primary" />
+            <a class='btn btn-default' (click)='cancel()'>Cancel</a>
+        </div>
+    </form>
+</div>

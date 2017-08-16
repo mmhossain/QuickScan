@@ -1,0 +1,12 @@
+<div class="browse-question">
+    <div class='left-panel'>
+        <category-list 
+            [selectedCategoryId]='categoryId'
+            (categoryClicked)='onCategoryClicked($event)'></category-list>
+    </div>
+    <div class='right-panel'>
+        <question-list *ngIf='questions'
+            [selectedCategoryId]='selectedCategoryId'
+            [questions]='questions'></question-list>
+    </div>
+</div>

@@ -1,0 +1,6 @@
+D:\Practice Projects\QuickScan\QuickScan.Domain\bin\Debug\QuickScan.Domain.dll
+D:\Practice Projects\QuickScan\QuickScan.Domain\bin\Debug\QuickScan.Domain.pdb
+D:\Practice Projects\QuickScan\QuickScan.Domain\obj\Debug\QuickScan.Domain.dll
+D:\Practice Projects\QuickScan\QuickScan.Domain\obj\Debug\QuickScan.Domain.pdb
+D:\Practice Projects\QuickScan\QuickScan.Domain\bin\Debug\QuickScan.Domain.dll.config
+D:\Practice Projects\QuickScan\QuickScan.Domain\obj\Debug\QuickScan.Domain.csprojResolveAssemblyReference.cache

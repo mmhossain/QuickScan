@@ -1,0 +1,247 @@
+{
+	"genres": [
+        {
+            "id": "backend",
+            "title": "Back End",
+            "categories": [
+                {
+                    "id": "csharp",
+                    "title": "C#.NET",
+                    "questionInLevels": {
+                        "BEGINNER": 5,
+                        "INTERMEDIATE": 3,
+                        "EXPERT": 2
+                    }
+                },
+                {
+                    "id": "aspnet",
+                    "title": "ASP.NET",
+                    "questionInLevels": {
+                        "BEGINNER": 2,
+                        "INTERMEDIATE": 3,
+                        "EXPERT": 5
+                    }
+                },
+                {
+                    "id": "aspnetmvc",
+                    "title": "ASP.NET MVC",
+                    "questionInLevels": {
+                        "BEGINNER": 0,
+                        "INTERMEDIATE": 0,
+                        "EXPERT": 0
+                    }
+                },
+                {
+                    "id": "adonet",
+                    "title": "ADO.NET",
+                    "questionInLevels": {
+                        "BEGINNER": 0,
+                        "INTERMEDIATE": 0,
+                        "EXPERT": 0
+                    }
+                },
+                {
+                    "id": "silverlight",
+                    "title": "Silverlight",
+                    "questionInLevels": {
+                        "BEGINNER": 0,
+                        "INTERMEDIATE": 0,
+                        "EXPERT": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": "frontend",
+            "title": "Front End",
+            "categories": [
+                {
+                    "id": "html",
+                    "title": "HTML",
+                    "questionInLevels": {
+                        "BEGINNER": 0,
+                        "INTERMEDIATE": 0,
+                        "EXPERT": 0
+                    }
+                },
+                {
+                    "id": "css",
+                    "title": "CSS",
+                    "questionInLevels": {
+                        "BEGINNER": 0,
+                        "INTERMEDIATE": 0,
+                        "EXPERT": 0
+                    }
+                },
+                {
+                    "id": "javascript",
+                    "title": "JavaScript",
+                    "questionInLevels": {
+                        "BEGINNER": 0,
+                        "INTERMEDIATE": 0,
+                        "EXPERT": 0
+                    }
+                },
+                {
+                    "id": "jquery",
+                    "title": "jQuery",
+                    "questionInLevels": {
+                        "BEGINNER": 5,
+                        "INTERMEDIATE": 4,
+                        "EXPERT": 1
+                    }
+                },
+                {
+                    "id": "angularjs",
+                    "title": "AngularJS",
+                    "questionInLevels": {
+                        "BEGINNER": 0,
+                        "INTERMEDIATE": 0,
+                        "EXPERT": 0
+                    }
+                },
+                {
+                    "id": "reactjs",
+                    "title": "ReactJS",
+                    "questionInLevels": {
+                        "BEGINNER": 0,
+                        "INTERMEDIATE": 0,
+                        "EXPERT": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": "webservice",
+            "title": "Web Service",
+            "categories": [
+                {
+                    "id": "wcf",
+                    "title": "WCF",
+                    "questionInLevels": {
+                        "BEGINNER": 0,
+                        "INTERMEDIATE": 0,
+                        "EXPERT": 0
+                    }
+                },
+                {
+                    "id": "webapi",
+                    "title": "Web API",
+                    "questionInLevels": {
+                        "BEGINNER": 0,
+                        "INTERMEDIATE": 0,
+                        "EXPERT": 0
+                    }
+                },
+                {
+                    "id": "msmq",
+                    "title": "MSMQ",
+                    "questionInLevels": {
+                        "BEGINNER": 0,
+                        "INTERMEDIATE": 0,
+                        "EXPERT": 0
+                    }
+                },
+                {
+                    "id": "aws",
+                    "title": "AWS",
+                    "questionInLevels": {
+                        "BEGINNER": 0,
+                        "INTERMEDIATE": 0,
+                        "EXPERT": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": "database",
+            "title": "Database",
+            "categories": [
+                {
+                    "id": "sqlserver",
+                    "title": "Sql Server",
+                    "questionInLevels": {
+                        "BEGINNER": 0,
+                        "INTERMEDIATE": 0,
+                        "EXPERT": 0
+                    }
+                },
+                {
+                    "id": "mysql",
+                    "title": "MySQL",
+                    "questionInLevels": {
+                        "BEGINNER": 0,
+                        "INTERMEDIATE": 0,
+                        "EXPERT": 0
+                    }
+                },
+                {
+                    "id": "oracle",
+                    "title": "Oracle",
+                    "questionInLevels": {
+                        "BEGINNER": 0,
+                        "INTERMEDIATE": 0,
+                        "EXPERT": 0
+                    }
+                },
+                {
+                    "id": "elasticsearch",
+                    "title": "Elastic Search",
+                    "questionInLevels": {
+                        "BEGINNER": 0,
+                        "INTERMEDIATE": 0,
+                        "EXPERT": 0
+                    }
+                },
+                {
+                    "id": "mongodb",
+                    "title": "MongoDB",
+                    "questionInLevels": {
+                        "BEGINNER": 0,
+                        "INTERMEDIATE": 0,
+                        "EXPERT": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": "orm",
+            "title": "ORM",
+            "categories": [
+                {
+                    "id": "ef",
+                    "title": "Entity Framework",
+                    "questionInLevels": {
+                        "BEGINNER": 3,
+                        "INTERMEDIATE": 4,
+                        "EXPERT": 4
+                    }
+                },
+                {
+                    "id": "nhibernate",
+                    "title": "NHibernate",
+                    "questionInLevels": {
+                        "BEGINNER": 0,
+                        "INTERMEDIATE": 0,
+                        "EXPERT": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": "tools",
+            "title": "Tools",
+            "categories": [
+                {
+                    "id": "visualstudio",
+                    "title": "Visual Studio",
+                    "questionInLevels": {
+                        "BEGINNER": 0,
+                        "INTERMEDIATE": 0,
+                        "EXPERT": 0
+                    }
+                }
+            ]
+        }
+    ]
+}

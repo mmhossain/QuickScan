@@ -1,0 +1,264 @@
+[
+    {
+        "id": "csharp-q1",
+        "level": "BEGINNER",
+        "type": "SINGLE_SELECT",
+        "categoryId": "csharp",
+        "title": "Which one is the base for all C# types?", 
+        "options": [
+            {
+                "id": "csharp-q1-o1",
+                "text": "System.ValueType"
+            },
+            {
+                "id": "csharp-q1-o2",
+                "text": "System.Object"
+            },
+            {
+                "id": "csharp-q1-o3",
+                "text": "System.IO.File"
+            },
+            {
+                "id": "csharp-q1-o4",
+                "text": "System.Globalization.CultureInfo"
+            }
+        ]
+    },
+    {
+        "id": "csharp-q2",
+        "level": "INTERMEDIATE",
+        "type": "SINGLE_SELECT",
+        "categoryId": "csharp",
+        "title": "Which one is capable of holding various types at runtime?", 
+        "options": [
+            {
+                "id": "csharp-q2-o1",
+                "text": "object"
+            },
+            {
+                "id": "csharp-q2-o2",
+                "text": "var"
+            },
+            {
+                "id": "csharp-q2-o3",
+                "text": "dynamic"
+            },
+            {
+                "id": "csharp-q2-o4",
+                "text": "params"
+            }
+        ]
+    },
+    {
+        "id": "csharp-q3",
+        "level": "INTERMEDIATE",
+        "type": "SINGLE_SELECT",
+        "categoryId": "csharp",
+        "title": "Which one is NOT valid for static constructor in C#?", 
+        "options": [
+            {
+                "id": "csharp-q3-o1",
+                "text": "A static constructor does not take an access modifier"
+            },
+            {
+                "id": "csharp-q3-o2",
+                "text": "A static constructor does not take any parameters"
+            },
+            {
+                "id": "csharp-q3-o3",
+                "text": "A static constructor calls on every object initialization"
+            },
+            {
+                "id": "csharp-q3-o4",
+                "text": "The static constructor executes before any instance-level constructor"
+            },
+            {
+                "id": "csharp-q3-o5",
+                "text": "Static constructor can be overloaded"
+            }
+        ]
+    },
+    {
+        "id": "csharp-q4",
+        "level": "EXPERT",
+        "type": "SINGLE_SELECT",
+        "categoryId": "csharp",
+        "title": "Which one is NOT valid for anonymous method in C#?", 
+        "options": [
+            {
+                "id": "csharp-q4-o1",
+                "text": "You don't control the name of the anonymous method"
+            },
+            {
+                "id": "csharp-q4-o2",
+                "text": "Anonymous types can be extended to add functionality"
+            },
+            {
+                "id": "csharp-q4-o3",
+                "text": "Anonymous types always extend System.Object"
+            },
+            {
+                "id": "csharp-q4-o4",
+                "text": "Anonymous types cannot support custom methods"
+            }
+        ]
+    },
+    {
+        "id": "csharp-q5",
+        "level": "BEGINNER",
+        "type": "MULTI_SELECT",
+        "categoryId": "csharp",
+        "title": "Select all that are true for C#.NET.",
+        "options": [
+            {
+                "id": "csharp-q5-o1",
+                "text": "Main method should only return void"
+            },
+            {
+                "id": "csharp-q5-o2",
+                "text": "Main method should always take a single parameter of type string[]"
+            },
+            {
+                "id": "csharp-q5-o3",
+                "text": "Extension methods are defined in static class but are used as instance methods"
+            },
+            {
+                "id": "csharp-q5-o4",
+                "text": "The keyword params can only modify the last parameter of a method"
+            }
+        ]
+    },
+    {
+        "id": "csharp-q6",
+        "level": "BEGINNER",
+        "type": "MULTI_SELECT",
+        "categoryId": "csharp",
+        "title": "Which are the differences between abstract class and interface in C#.NET?",
+        "options": [
+            {
+                "id": "csharp-q6-o1",
+                "text": "Abstract class is free to define any number of constructors, field data, non-abstract members, but interface contains only abstract members"
+            },
+            {
+                "id": "csharp-q6-o2",
+                "text": "Interface can have default implementation for it's members"
+            },
+            {
+                "id": "csharp-q6-o3",
+                "text": "Abstract class can support dynamic polymorphism even the objects are not from the same family, which interface cannot support"
+            },
+            {
+                "id": "csharp-q6-o4",
+                "text": "Derived class must provide implementation for all members of the parent abstract class"
+            }
+        ]
+    },
+    {
+        "id": "csharp-q7",
+        "level": "EXPERT",
+        "type": "MULTI_SELECT",
+        "categoryId": "csharp",
+        "title": "What are the ways to create asynchrony in C#.NET?",
+        "options": [
+            {
+                "id": "csharp-q7-o1",
+                "text": "System.Threading.Thread"
+            },
+            {
+                "id": "csharp-q7-o2",
+                "text": "TPL"
+            },
+            {
+                "id": "csharp-q7-o3",
+                "text": "PLINQ"
+            },
+            {
+                "id": "csharp-q7-o4",
+                "text": "Delegate"
+            },
+            {
+                "id": "csharp-q7-o5",
+                "text": "async, await"
+            }
+        ]
+    },
+    {
+        "id": "csharp-q8",
+        "level": "BEGINNER",
+        "type": "MULTI_SELECT",
+        "categoryId": "csharp",
+        "title": "What are the differences between value types and reference types in C#.NET?",
+        "options": [
+            {
+                "id": "csharp-q8-o1",
+                "text": "Value type cannot be used as a base class, but reference type can be"
+            },
+            {
+                "id": "csharp-q8-o2",
+                "text": "Value type variables are local copies, but reference type variables are pointers to specific memory location"
+            },
+            {
+                "id": "csharp-q8-o3",
+                "text": "Value types can override System.Object.Finalize(), but reference types cannot"
+            },
+            {
+                "id": "csharp-q8-o4",
+                "text": "Value types die when fall out of scope, but reference types die when they are garbase collected"
+            }
+        ]
+    },
+    {
+        "id": "csharp-q9",
+        "level": "BEGINNER",
+        "type": "SINGLE_SELECT",
+        "categoryId": "csharp",
+        "title": "Which one is NOT true for generics in C#.NET?",
+        "options": [
+            {
+                "id": "csharp-q9-o1",
+                "text": "Generics greatly improves performance"
+            },
+            {
+                "id": "csharp-q9-o2",
+                "text": "Generics reduces the need to implement custom collections"
+            },
+            {
+                "id": "csharp-q9-o3",
+                "text": "Generics is not responsible for providing type safety"
+            },
+            {
+                "id": "csharp-q9-o4",
+                "text": "A generic collection can contain only specific types"
+            }
+        ]
+    },
+    {
+        "id": "csharp-q10",
+        "level": "INTERMEDIATE",
+        "type": "MULTI_SELECT",
+        "categoryId": "csharp",
+        "title": "Which of the following operators can be overloaded in C#.NET?",
+        "options": [
+            {
+                "id": "csharp-q10-o1",
+                "text": "++"
+            },
+            {
+                "id": "csharp-q10-o2",
+                "text": "<<"
+            },
+            {
+                "id": "csharp-q10-o3",
+                "text": "[ ]"
+            },
+            {
+                "id": "csharp-q10-o4",
+                "text": "( )"
+            },
+            {
+                "id": "csharp-q10-o5",
+                "text": "&"
+            }
+        ]
+    }
+]

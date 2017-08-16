@@ -1,0 +1,13 @@
+D:\Practice Projects\QuickScan\QuickScan.Data\bin\Debug\QuickScan.Data.dll
+D:\Practice Projects\QuickScan\QuickScan.Data\bin\Debug\QuickScan.Data.pdb
+D:\Practice Projects\QuickScan\QuickScan.Data\obj\Debug\QuickScan.Data.csprojResolveAssemblyReference.cache
+D:\Practice Projects\QuickScan\QuickScan.Data\obj\Debug\QuickScan.Data.dll
+D:\Practice Projects\QuickScan\QuickScan.Data\obj\Debug\QuickScan.Data.pdb
+D:\Practice Projects\QuickScan\QuickScan.Data\bin\Debug\QuickScan.Data.dll.config
+D:\Practice Projects\QuickScan\QuickScan.Data\bin\Debug\EntityFramework.dll
+D:\Practice Projects\QuickScan\QuickScan.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Practice Projects\QuickScan\QuickScan.Data\bin\Debug\QuickScan.Domain.dll
+D:\Practice Projects\QuickScan\QuickScan.Data\bin\Debug\QuickScan.Domain.pdb
+D:\Practice Projects\QuickScan\QuickScan.Data\bin\Debug\EntityFramework.xml
+D:\Practice Projects\QuickScan\QuickScan.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Practice Projects\QuickScan\QuickScan.Data\bin\Debug\QuickScan.Domain.dll.config

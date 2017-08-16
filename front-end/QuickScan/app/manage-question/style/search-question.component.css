@@ -1,0 +1,29 @@
+div.question-search-section {
+    padding: 0.5em 0em;
+    border-top: 1px solid lightsteelblue;
+    border-bottom: 1px solid lightsteelblue;
+}
+
+div.question-search-section select, div.question-search-section input {
+    height: 34px;
+    margin: 0;
+    border: 1px solid #b2b2b2;
+    border-radius: 0;   
+}
+
+div.question-search-section select {
+    width: 25%;
+}
+
+div.question-search-section input.question-search-box {
+    width: 60%;
+    padding: 0.5em;
+}
+
+div.question-search-section input.search-button {
+    width: 5%;
+}
+
+div.question-search-section input.add-question {
+    width: 9%;
+}

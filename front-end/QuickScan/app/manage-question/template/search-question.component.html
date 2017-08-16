@@ -1,0 +1,16 @@
+<div class='question-search-section'>
+    <select name="category-select">
+        <option value="-1">All Categories</option>
+        <option *ngFor='let category of categories' value='category.CategoryId'>{{category.Title}}</option>
+    </select> 
+    <input class="question-search-box" placeholder="Enter keyword from Question title" />
+    <input class="search-button" type="submit" value="Search" />
+    <input class="add-question" type="submit" value="Add Question" (click)='addQuestion()' />
+    <div class="add-question-section" *ngIf='!hideAddQuestionForm && categories'>
+        <add-question
+            [hideAddQuestionForm]='hideAddQuestionForm'
+            [question]='question'
+            [categories]='categories'
+            (formCloseEvent)='addQuestionClose($event)'></add-question>
+    </div>
+</div>

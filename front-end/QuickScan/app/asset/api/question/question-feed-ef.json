@@ -1,0 +1,281 @@
+[
+    {
+        "id": "ef-q1",
+        "level": "INTERMEDIATE",
+        "type": "MULTI_SELECT",
+        "categoryId": "ef",
+        "title": "Which ones are the data loading techniques in Entity Framework?", 
+        "options": [
+            {
+                "id": "ef-q1-o1",
+                "text": "Lazy Loading"
+            },
+            {
+                "id": "ef-q1-o2",
+                "text": "Explicit Loading"
+            },
+            {
+                "id": "ef-q1-o3",
+                "text": "Eager Loading"
+            },
+            {
+                "id": "ef-q1-o4",
+                "text": "Deferred Loading"
+            }
+        ]
+    },
+    {
+        "id": "ef-q2",
+        "level": "EXPERT",
+        "type": "SINGLE_SELECT",
+        "categoryId": "ef",
+        "title": "Which class helps you to handle concurrent update conflicts in Entity Framework?", 
+        "options": [
+            {
+                "id": "ef-q2-o1",
+                "text": "ConcurrencyException"
+            },
+            {
+                "id": "ef-q2-o2",
+                "text": "DbUpdateConcurrencyException"
+            },
+            {
+                "id": "ef-q2-o3",
+                "text": "OptimisticConcurrencyHandler"
+            },
+            {
+                "id": "ef-q2-o4",
+                "text": "PesimisticConcurrencyLock"
+            },
+            {
+                "id": "ef-q2-o5",
+                "text": "OptimisticConcurrencyException"
+            }
+        ]
+    },
+    {
+        "id": "ef-q3",
+        "level": "EXPERT",
+        "type": "MULTI_SELECT",
+        "categoryId": "ef",
+        "title": "How can you indicate concurrency check column in Fluent API?", 
+        "options": [
+            {
+                "id": "ef-q3-o1",
+                "text": "Adding a rowversion column in the model and configuring it with IsRowVersion()"
+            },
+            {
+                "id": "ef-q3-o2",
+                "text": "Configure a column in the model with IsConcurrencyToken()"
+            },
+            {
+                "id": "ef-q3-o3",
+                "text": "Just adding a rowversion column in the model is fine and Entity Framework will take care of everything"
+            },
+            {
+                "id": "ef-q3-o4",
+                "text": "There is no way to configure concurrency column in Fluent API"
+            }
+        ]
+    },
+    {
+        "id": "ef-q4",
+        "level": "EXPERT",
+        "type": "SINGLE_SELECT",
+        "categoryId": "ef",
+        "title": "Which one is NOT true regarding Entity Framework concurrency conflicts?", 
+        "options": [
+            {
+                "id": "ef-q4-o1",
+                "text": "Pesimistic concurrency assumes that it will obviusly happen and lock database row while reading"
+            },
+            {
+                "id": "ef-q4-o2",
+                "text": "Optimistic concurrency can hamper application performance due to databa locks"
+            },
+            {
+                "id": "ef-q4-o3",
+                "text": "Optimistic concurrency can be handled in 3 ways - tracking each properties, client win, store win"
+            },
+            {
+                "id": "ef-q4-o4",
+                "text": "Optimistic concurrency does not assume anything, just let it happen and act accordingly"
+            }
+        ]
+    },
+    {
+        "id": "ef-q5",
+        "level": "BEGINNER",
+        "type": "MULTI_SELECT",
+        "categoryId": "ef",
+        "title": "How you can switch off the Lazy Loading in Entity Framework?",
+        "options": [
+            {
+                "id": "ef-q5-o1",
+                "text": "By removing virtual keyword for specific navigation property"
+            },
+            {
+                "id": "ef-q5-o2",
+                "text": "By setting the this.Configurations.LazyLoadingEnabled = false in constructor of context class"
+            },
+            {
+                "id": "ef-q5-o3",
+                "text": "There is no need to switch off, because it is the default behavior"
+            },
+            {
+                "id": "ef-q5-o4",
+                "text": "By setting the this.Configurations.LazyLoadingDisabled = true in constructor of context class"
+            }
+        ]
+    },
+    {
+        "id": "ef-q6",
+        "level": "BEGINNER",
+        "type": "SINGLE_SELECT",
+        "categoryId": "ef",
+        "title": "Which one is NOT a development approach in Entity Framework?",
+        "options": [
+            {
+                "id": "ef-q6-o1",
+                "text": "Database First"
+            },
+            {
+                "id": "ef-q6-o2",
+                "text": "Model First"
+            },
+            {
+                "id": "ef-q6-o3",
+                "text": "Code First"
+            },
+            {
+                "id": "ef-q6-o4",
+                "text": "Domain First"
+            }
+        ]
+    },
+    {
+        "id": "ef-q7",
+        "level": "EXPERT",
+        "type": "MULTI_SELECT",
+        "categoryId": "ef",
+        "title": "Which of the following are parts of a .edmx file in Entity Framework?",
+        "options": [
+            {
+                "id": "ef-q7-o1",
+                "text": "CSDL (Conceptual Schema Definition Language)"
+            },
+            {
+                "id": "ef-q7-o2",
+                "text": "SSDL (Storage Schema Definition Language)"
+            },
+            {
+                "id": "ef-q7-o3",
+                "text": "MSL (Mapping Specification Language)"
+            },
+            {
+                "id": "ef-q7-o4",
+                "text": "All of the above"
+            }
+        ]
+    },
+    {
+        "id": "ef-q8",
+        "level": "INTERMEDIATE",
+        "type": "MULTI_SELECT",
+        "categoryId": "ef",
+        "title": "Which ones are inheritance strategies in Entity Framework?",
+        "options": [
+            {
+                "id": "ef-q8-o1",
+                "text": "Table per Hierarchy (TPH)"
+            },
+            {
+                "id": "ef-q8-o2",
+                "text": "Table per type (TPT)"
+            },
+            {
+                "id": "ef-q8-o3",
+                "text": "Table per Interface (TPI)"
+            },
+            {
+                "id": "ef-q8-o4",
+                "text": "Table per Concrete class (TPC)"
+            },
+            {
+                "id": "ef-q8-o5",
+                "text": "Table per Abstract type (TPA)"
+            }
+        ]
+    },
+    {
+        "id": "ef-q9",
+        "level": "INTERMEDIATE",
+        "type": "MULTI_SELECT",
+        "categoryId": "ef",
+        "title": "How can you configure domain class in Entity Framework?",
+        "options": [
+            {
+                "id": "ef-q9-o1",
+                "text": "Using Data Annotations"
+            },
+            {
+                "id": "ef-q9-o2",
+                "text": "Using Fluent API"
+            },
+            {
+                "id": "ef-q9-o3",
+                "text": "No need to configure, it's default"
+            }
+        ]
+    },
+    {
+        "id": "ef-q10",
+        "level": "INTERMEDIATE",
+        "type": "MULTI_SELECT",
+        "categoryId": "ef",
+        "title": "Which of the following helps in Entity Framework migration?",
+        "options": [
+            {
+                "id": "ef-q10-o1",
+                "text": "enable-migrations"
+            },
+            {
+                "id": "ef-q10-o2",
+                "text": "update-database"
+            },
+            {
+                "id": "ef-q10-o3",
+                "text": "enableautomaticmigrations"
+            },
+            {
+                "id": "ef-q10-o4",
+                "text": "All of the above"
+            }
+        ]
+    },
+    {
+        "id": "ef-q11",
+        "level": "BEGINNER",
+        "type": "SINGLE_SELECT",
+        "categoryId": "ef",
+        "title": "Which of the followings are database initialization strategies in EF Code First?",
+        "options": [
+            {
+                "id": "ef-q11-o1",
+                "text": "CreateDatabaseIfNotExists"
+            },
+            {
+                "id": "ef-q11-o2",
+                "text": "DropCreateDatabaseAlways"
+            },
+            {
+                "id": "ef-q11-o3",
+                "text": "MigrateDatabaseToLatestVersion"
+            },
+            {
+                "id": "ef-q11-o4",
+                "text": "All of the above"
+            }
+        ]
+    }
+]

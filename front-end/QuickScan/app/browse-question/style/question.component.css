@@ -1,0 +1,70 @@
+.question-list {
+    float: left;
+    width: 80%;
+}
+
+table.question-table th, table.question-table td {
+    border: 0px !important;
+    padding: 1px !important;
+}
+
+div.question {
+    padding: 0.5em;
+    /*background: linear-gradient(to bottom, lightgrey, lightyellow);*/
+    background: linear-gradient(to bottom, lightgrey, #f2d2c2);
+    /*border-radius: 5px;*/
+    overflow: hidden;
+    margin-bottom: 0.1em;
+}
+
+div.question > p {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+div.question > p.question-title {
+    float: left;
+}
+
+div.question > p.question-level {
+    float: right;
+}
+
+.beginner-color {
+    color: green;
+}
+
+.intermediate-color {
+    color: deepskyblue;
+}
+
+.expert-color {
+    color: red;
+}
+
+div.question > ul {
+    clear: left;
+    list-style-type: none;
+    padding-left: 0.6em;
+    line-height: 2em;
+    font-weight: normal !important;
+}
+
+div.question > ul label {
+    font-weight: normal !important;
+}
+
+div.question ul input, div.question div.add-to-exam input {
+    margin-right: 0.2em;
+    position: relative;
+    top: 1px;
+}
+
+div.question div.add-to-exam {
+    clear: left;
+    float: right;
+}
+
+p.question-level-color {
+    float: right;
+}

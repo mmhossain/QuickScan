@@ -1,0 +1,63 @@
+.entry-form-medium {
+    border: 1px solid grey;
+    width: 80%;
+    margin: 0.5em auto;
+}
+
+.entry-form-medium form {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.form-header {
+    text-align: left;
+    line-height: 1.5em;
+    padding: 0.5em;
+    background: linear-gradient(to right, #f2d2c2, #c2e2f2);
+    font-weight: bold;
+}
+
+.form-body {
+    padding: 0.5em;
+    line-height: 1.5em;
+    width: 100%;
+}
+
+.form-body .form-group {
+    margin-bottom: 0.5em;
+}
+
+.form-body .form-control {
+    border-radius: 0;
+    height: 34px;
+    padding: 0.5em;
+}
+
+.form-body .option input[type='radio'], .form-body .option input[type='checkbox'] {
+    margin: 0 0.5em 0.7em;
+}
+
+.form-body .option input[type='text'] {
+    width: 90%;
+}
+
+.form-body .option input[type='submit'] {
+    height: 34px;
+    margin-bottom: 10px;
+    padding: 0;
+    width: 2em;
+}
+
+.form-footer {
+    padding: 0.5em;
+    border-top: 1px solid lightpink;
+    text-align: right;
+    background: linear-gradient(to right, #f2d2c2, #c2e2f2);
+}
+
+.form-footer input, 
+.form-footer a {
+    border-radius: 0;
+    width: 6em;
+}

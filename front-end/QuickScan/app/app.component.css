@@ -1,0 +1,43 @@
+body {
+    margin: 0em;
+    padding: 0.5em;
+    width: 100%;
+    height: 100%;
+}
+
+ul.top-menu {
+    width: 80%;
+    margin-top: 2em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #232f3e; 
+    line-height: 3em;
+}
+
+ul.top-menu li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+ul.top-menu li a {
+    text-decoration: none;
+    padding: 0.5em;
+    color: #fff;
+}
+
+.content-wrapper {
+    padding: 0.5em;
+    margin: 0px;
+}
+
+.footer {
+    position: relative;
+    bottom: 0em;
+    width: 80.6%;
+    margin: 0.5em auto 0em auto;
+    padding: 0.5em;
+    text-align: center;
+    clear: both;
+    border-top: 1px solid lightskyblue;
+}
