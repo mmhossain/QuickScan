@@ -13,17 +13,24 @@ ul.top-menu {
     margin-right: auto;
     background-color: #232f3e; 
     line-height: 3em;
+    padding: 0;
+    overflow: hidden;
 }
 
-ul.top-menu li {
-    list-style-type: none;
-    display: inline-block;
+li {
+    float: left;
 }
 
-ul.top-menu li a {
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    padding: 0.5em;
-    color: #fff;
+}
+
+li a:hover {
+    background-color: #111;
 }
 
 .content-wrapper {
@@ -32,12 +39,12 @@ ul.top-menu li a {
 }
 
 .footer {
-    position: relative;
+    position: fixed;
     bottom: 0em;
-    width: 80.6%;
-    margin: 0.5em auto 0em auto;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
     padding: 0.5em;
     text-align: center;
-    clear: both;
     border-top: 1px solid lightskyblue;
 }
