@@ -17,11 +17,11 @@ ul.top-menu {
     overflow: hidden;
 }
 
-li {
+ul.top-menu li {
     float: left;
 }
 
-li a {
+ul.top-menu li a {
     display: block;
     color: white;
     text-align: center;
@@ -29,7 +29,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+ul.top-menu li a:hover {
     background-color: #111;
 }
 
@@ -46,5 +46,7 @@ li a:hover {
     margin-right: 10%;
     padding: 0.5em;
     text-align: center;
+    background: #232f3e;
+    color: white;
     border-top: 1px solid lightskyblue;
 }

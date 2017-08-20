@@ -58,6 +58,7 @@ div.question ul input, div.question div.add-to-exam input {
     margin-right: 0.2em;
     position: relative;
     top: 1px;
+    margin-top: -4px;
 }
 
 div.question div.add-to-exam {
