@@ -17,8 +17,8 @@ This is a practice project aiming to explore Angular2 and Web-API. The main purp
 
 If you are all successful, you should get the initial page like this:
 
-![Home](QuickScan/images/Home.jpg?raw=true "Home Page")
+![Home](https://github.com/mmhossain/QuickScan/blob/master/images/Home.JPG)
 
 The Browse Question page should be like this:
 
-![Browse Question](QuickScan/images/BrowseQuestion.jpg?raw=true "Browse Question Page")
+![Browse Question](https://github.com/mmhossain/QuickScan/blob/master/images/BrowseQuestion.JPG)
